@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow300"
+    tools:context=".SplashFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            android:src="@drawable/logo"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_gravity="center_vertical
+"
+            />
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:text="Pocket Pantry"
+            android:textAlignment="center"
+            android:textColor="@color/magenta"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tagline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Blink, Buy, Bliss – Your Quick Shopping Fix."
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#6A6A6A"
+            android:textColorLink="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/autour_one"
+            android:text="_____________"
+            android:textAlignment="center"
+            android:textColor="#2E2E2E"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

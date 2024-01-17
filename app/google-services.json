@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12391727914",
+    "project_id": "pocket-pantry-a1a92",
+    "storage_bucket": "pocket-pantry-a1a92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12391727914:android:c0983af77c16bb63de5453",
+        "android_client_info": {
+          "package_name": "com.example.pocketpantry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_i6CrJwr0LOfgQIx7VPceblc6RmJhNfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
